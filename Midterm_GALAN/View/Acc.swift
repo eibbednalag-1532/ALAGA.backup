@@ -24,9 +24,7 @@ struct Acc: View {
             VStack(alignment: .center, spacing: -10){
                     
                     ProfileCrcle()
-                    UserNameDisplay()
-                    EmailDisplay()
-                    ContactNumberDisplay()
+                    FullDetails()
                     
                     
                     
@@ -67,62 +65,24 @@ struct ProfileCrcle : View {
    
 }
 
-// MARK: User Name
+// MARK: Details
 
-struct UserNameDisplay: View {
+struct FullDetails: View {
     var body: some View {
-        VStack {
-            Text("Username")
-                .font(.system(size: 30, weight: .semibold, design: .rounded))
-                .offset(x: -70, y: 10)
-                .padding()
-            
-            Rectangle()
-                .frame(width: 300, height: 45, alignment: .center)
-                .foregroundStyle(.white)
-                .cornerRadius(10)
-            
-        }
+        
+        AccDetails(detsName: "Username")
+        
+        AccDetails(detsName: "Email")
+        
+        AccDetails(detsName: "Contact Number")
+        
+        
+        
     }
 }
 
-// MARK: Email Name
 
-struct EmailDisplay: View {
-    var body: some View {
-        VStack {
-            Text("Email")
-                .font(.system(size: 30, weight: .semibold, design: .rounded))
-                .offset(x: -100, y: 15)
-                .padding()
-            
-            Rectangle()
-                .frame(width: 300, height: 45, alignment: .center)
-                .foregroundStyle(.white)
-                .cornerRadius(10)
-            
-        }
-    }
-}
 
-// MARK: Contact Number
-
-struct ContactNumberDisplay: View {
-    var body: some View {
-        VStack {
-            Text("Contact Number")
-                .font(.system(size: 30, weight: .semibold, design: .rounded))
-                .offset(x: -30, y: 15)
-                .padding()
-            
-            Rectangle()
-                .frame(width: 300, height: 45, alignment: .center)
-                .foregroundStyle(.white)
-                .cornerRadius(10)
-            
-        }
-    }
-}
 
 #Preview {
     Acc()

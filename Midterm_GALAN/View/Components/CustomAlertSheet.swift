@@ -6,3 +6,8 @@
 //
 
 import SwiftUI
+
+struct CustomAddSheet: View {
+    @Binding var isPresented: Bool
+    let title: String
+}

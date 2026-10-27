@@ -51,7 +51,7 @@ struct FullClinicInfo: View {
     var body: some View {
         VStack{
             
-            // JVERTSERV
+            // MARK: JVERTSERV
             ClinicName(infoName: "JVERTSERV Veterinary Clinic Lucena - 4.6", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "516 Old Kabukiran Compound, Brgy. Gulang-Gulang")
@@ -70,7 +70,7 @@ struct FullClinicInfo: View {
             
             ClinicFullInfo(infoIcon: "phone", infoEvent: "Mobile: +63 998 424 8223/+63 916 739 1997 ")
             
-            //VETFOCUS
+            //MARK: VETFOCUS
             ClinicName(infoName: "VetFocus Care Animal - 4.4", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "OakBrook Ave, Phase 3, Pleasantville Subd, Ilayang Iyam")
@@ -89,7 +89,7 @@ struct FullClinicInfo: View {
             
             ClinicFullInfo(infoIcon: "phone", infoEvent: "Mobile: +63 993 476 8522 Landline: (042) 421-9086")
             
-            //VET STATION EMERGENCY
+            //MARK: VET STATION EMERGENCY
             ClinicName(infoName: "Vet Station Emergency Animal CLinic - 2.3", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "Old Manila South Road, Brgy Isabang")
@@ -108,7 +108,7 @@ struct FullClinicInfo: View {
             
             ClinicFullInfo(infoIcon: "phone", infoEvent: "Mobile: +63 968 589 8610 (Call While in Transit For Late-Night Arrivals))")
             
-            //PET BLISS VETERINARY
+            //MARK: PET BLISS VETERINARY
             ClinicName(infoName: "Pet Bliss Veterinary Clinic - 3.0", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "Lucena City Proper (Near Quezon Ave Area)")
@@ -127,7 +127,7 @@ struct FullClinicInfo: View {
             
             ClinicFullInfo(infoIcon: "phone", infoEvent: "Mobile: +63 925 523 3615")
             
-            //DOMINGO VETERINARY CLINIC
+            //MARK: DOMINGO VETERINARY CLINIC
             ClinicName(infoName: "Domingo Veterinary Clinic & Grooming Center - 4.8", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "Pearl Street, West Employees Village, Brgy Gulang-Gulang")
@@ -146,7 +146,7 @@ struct FullClinicInfo: View {
             
             ClinicFullInfo(infoIcon: "phone", infoEvent: "Mobile: +63 968 589 8610 (Call While in Transit FOr Late-Night Arrivals))")
             
-            //ST. DIDACUS VETERINARY CLINIC
+            //MARK: ST. DIDACUS VETERINARY CLINIC
             ClinicName(infoName: "St. Didacus Veterinary Clinic - No Data", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "125 Old Manila Road South Road, Lucena City")
@@ -165,7 +165,7 @@ struct FullClinicInfo: View {
             
             ClinicFullInfo(infoIcon: "phone", infoEvent: "Mobile: +63 908 914 4737 Landline: (042) 373-1330")
             
-            //DEAR PET HUB
+            //MARK: DEAR PET HUB
             ClinicName(infoName: "Dear Pet Hub - No Data", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "125 Old Manila Road South Road,  Brgy. Isabang (In front of Valley Oaks Subd)")
@@ -184,7 +184,7 @@ struct FullClinicInfo: View {
             
             ClinicFullInfo(infoIcon: "phone", infoEvent: "Mobile: N/A")
             
-            //TIPTOP ANIMAL CLINIC
+            //MARK: TIPTOP ANIMAL CLINIC
             ClinicName(infoName: "Tiptop Animal Clinic - No Data", iconName: "star.fill")
             
             ClinicFullInfo(infoIcon: "mappin.and.ellipse", infoEvent: "Old Manila Road South Road, Lucena City")
